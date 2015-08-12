@@ -5,7 +5,6 @@ import sqlite3
 import tweepy
 import json
 import threading
-import random
 import webbrowser
 import sys
 import time
