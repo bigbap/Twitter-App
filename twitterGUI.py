@@ -175,7 +175,7 @@ class ProcessTweet():
                 conn.row_factory = sqlite3.Row
                 c = conn.cursor()
                 try:
-                    c.execute('SELECT id, tweet, dtadded, processed FROM tweets WHERE processed = 0 AND approved = 1 ORDER BY dtadded DESC LIMIT 1')
+                    c.execute('SELECT id, tweet, dtadded, processed FROM tweets WHERE processed = 0 AND approved = 1 ORDER BY dtadded ASC LIMIT 1')
                     for row in c.fetchall():
                         id = row['id']
                         try:
