@@ -25,7 +25,6 @@ class Listener(tweepy.StreamListener):
                 try:
                     c.execute('INSERT INTO tweets (id, tweet) VALUES (?, ?)', (id, tweet))
                     conn.commit()
-                    print("Tweet added to DB")
                 except Exception as e:
                     print(e)
                     pass
