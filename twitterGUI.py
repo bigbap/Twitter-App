@@ -8,6 +8,7 @@ import threading
 import webbrowser
 import sys
 import time
+import os
 
 class Listener(tweepy.StreamListener):
     def on_data(self, data):
@@ -19,7 +20,7 @@ class Listener(tweepy.StreamListener):
             lang = data["lang"]
 
             if lang == "en":
-                conn = sqlite3.connect('twitter.db')
+                conn = sqlite3.connect(DB)
                 c = conn.cursor()
                 try:
                     c.execute('INSERT INTO tweets (id, tweet) VALUES (?, ?)', (id, tweet))
@@ -77,6 +78,7 @@ class twitterGUI(tkinter.Tk):
             id = record['id']
             url = 'http://www.twitter.com/user/status/' + str(id)
             data = {'id':id}
+
             label = tkinter.Label(self.contentFrame, anchor="w", fg="black", bg="white", text=id, padx=3, pady=3)
             label.grid(column=0, row=row, sticky='EW')
             label = tkinter.Label(self.contentFrame, anchor="w", fg="blue", bg="white", text=url, padx=3, pady=3)
@@ -96,7 +98,7 @@ class twitterGUI(tkinter.Tk):
 
     def onApprove(self, event, arg):
         id = arg['id']
-        conn = sqlite3.connect('twitter.db')
+        conn = sqlite3.connect(DB)
         c = conn.cursor()
 
         try:
@@ -113,7 +115,7 @@ class twitterGUI(tkinter.Tk):
 
     def onDisprove(self, event, arg):
         id = arg['id']
-        conn = sqlite3.connect('twitter.db')
+        conn = sqlite3.connect(DB)
         c = conn.cursor()
 
         try:
@@ -129,7 +131,7 @@ class twitterGUI(tkinter.Tk):
         self.setupGrid()
 
     def getTweets(row=0):
-        conn = sqlite3.connect('twitter.db')
+        conn = sqlite3.connect(DB)
         conn.row_factory = sqlite3.Row
         c = conn.cursor()
 
@@ -169,7 +171,7 @@ class ProcessTweet():
         while self.running:
             if tweetsProcessed < 20 and limitInterval > 0 and tweetInterval <= 0:
                 print("processing...")
-                conn = sqlite3.connect('twitter.db')
+                conn = sqlite3.connect(DB)
                 conn.row_factory = sqlite3.Row
                 c = conn.cursor()
                 try:
@@ -219,9 +221,13 @@ def exitApp():
 
 processTweet = ''
 twitterStream = ''
+
+CURR_DIR = os.path.dirname(__file__) + '\\'
+DB = CURR_DIR + 'twitter.db'
+
 if __name__ == "__main__":
     #setup db
-    conn = sqlite3.connect('twitter.db')
+    conn = sqlite3.connect(DB)
     c = conn.cursor()
     try:
         c.execute("CREATE TABLE if not exists tweets (id int PRIMARY KEY NOT NULL, tweet text, dtadded default CURRENT_TIMESTAMP NOT NULL, processed bit default 0 NOT NULL, approved bit default 0 NOT NULL)")
@@ -231,7 +237,7 @@ if __name__ == "__main__":
         pass
     conn.close()
 
-    dataFile = open('data.json')
+    dataFile = open(CURR_DIR + 'data.json')
     dataStr = dataFile.read()
     dataJson = json.loads(dataStr)
     dataFile.close()
@@ -247,7 +253,7 @@ if __name__ == "__main__":
     except Exception as e:
         exit()
 
-    authFile = open('../twitterAuth.json')
+    authFile = open(CURR_DIR + '..\\twitterAuth.json')
     authStr = authFile.read()
     authJson = json.loads(authStr)
     authFile.close()
@@ -271,5 +277,5 @@ if __name__ == "__main__":
 
     #setup GUI
     app = twitterGUI(None)
-    app.title('my application')
+    app.title('Twitter APP')
     app.mainloop()
