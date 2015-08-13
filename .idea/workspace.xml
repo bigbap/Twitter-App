@@ -4,8 +4,6 @@
     <list default="true" id="d65cc178-2d0f-4cb4-8586-4bb08d463d2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter.db" afterPath="$PROJECT_DIR$/twitter.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitterGUI.py" afterPath="$PROJECT_DIR$/twitterGUI.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/twitter.iml" afterPath="$PROJECT_DIR$/.idea/twitter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twitter.iws" />
@@ -21,7 +19,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/twitter$test.coverage" NAME="test Coverage Results" MODIFIED="1439415040518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/twitter$twitterGUI.coverage" NAME="twitterGUI Coverage Results" MODIFIED="1439465549885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/twitter$twitterGUI.coverage" NAME="twitterGUI Coverage Results" MODIFIED="1439471962179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,17 +33,17 @@
       <file leaf-file-name="twitterGUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitterGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6141215">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.5730706">
+              <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
               <folding>
                 <element signature="e#21#35#0" expanded="true" />
-                <marker date="1439465548474" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
-                <marker date="1439465548474" expanded="true" signature="3801:3844" placeholder="UPDATE tweet..." />
-                <marker date="1439465548474" expanded="true" signature="4188:4232" placeholder="UPDATE tweet..." />
-                <marker date="1439465548474" expanded="true" signature="4599:4710" placeholder="SELECT id, t..tweets..." />
-                <marker date="1439465548474" expanded="true" signature="5883:5997" placeholder="SELECT id, t..tweets..." />
-                <marker date="1439465548474" expanded="true" signature="6439:6483" placeholder="UPDATE tweet..." />
-                <marker date="1439465548474" expanded="true" signature="7612:7798" placeholder="CREATE TABLE..if..." />
+                <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+                <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+                <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+                <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+                <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+                <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+                <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
               </folding>
             </state>
           </provider>
@@ -405,7 +403,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32805908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -446,13 +444,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439465548474" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
-            <marker date="1439465548474" expanded="true" signature="3801:3844" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4188:4232" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4599:4710" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="5883:5997" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="6439:6483" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="7612:7798" placeholder="CREATE TABLE..if..." />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
           </folding>
         </state>
       </provider>
@@ -463,13 +461,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439465548474" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
-            <marker date="1439465548474" expanded="true" signature="3801:3844" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4188:4232" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4599:4710" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="5883:5997" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="6439:6483" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="7612:7798" placeholder="CREATE TABLE..if..." />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
           </folding>
         </state>
       </provider>
@@ -480,13 +478,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439465548474" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
-            <marker date="1439465548474" expanded="true" signature="3801:3844" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4188:4232" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4599:4710" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="5883:5997" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="6439:6483" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="7612:7798" placeholder="CREATE TABLE..if..." />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
           </folding>
         </state>
       </provider>
@@ -497,13 +495,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439465548474" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
-            <marker date="1439465548474" expanded="true" signature="3801:3844" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4188:4232" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4599:4710" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="5883:5997" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="6439:6483" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="7612:7798" placeholder="CREATE TABLE..if..." />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
           </folding>
         </state>
       </provider>
@@ -514,30 +512,64 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439465548474" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
-            <marker date="1439465548474" expanded="true" signature="3801:3844" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4188:4232" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4599:4710" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="5883:5997" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="6439:6483" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="7612:7798" placeholder="CREATE TABLE..if..." />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6141215">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439465548474" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
-            <marker date="1439465548474" expanded="true" signature="3801:3844" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4188:4232" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="4599:4710" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="5883:5997" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439465548474" expanded="true" signature="6439:6483" placeholder="UPDATE tweet..." />
-            <marker date="1439465548474" expanded="true" signature="7612:7798" placeholder="CREATE TABLE..if..." />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#35#0" expanded="true" />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5730706">
+          <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+          <folding>
+            <element signature="e#21#35#0" expanded="true" />
+            <marker date="1439471960765" expanded="true" signature="520:564" placeholder="INSERT INTO ..." />
+            <marker date="1439471960765" expanded="true" signature="4048:4091" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4435:4479" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="4846:4957" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6130:6244" placeholder="SELECT id, t..tweets..." />
+            <marker date="1439471960765" expanded="true" signature="6686:6730" placeholder="UPDATE tweet..." />
+            <marker date="1439471960765" expanded="true" signature="7859:8045" placeholder="CREATE TABLE..if..." />
           </folding>
         </state>
       </provider>
