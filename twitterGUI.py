@@ -47,7 +47,7 @@ class twitterGUI(tkinter.Tk):
 
     def initialize(self):
         self.frame=tkinter.Frame()
-        self.contentFrame=tkinter.Frame(self.frame)
+        self.contentFrame=tkinter.Frame(self.frame, bg="white")
         self.frame.grid()
         self.resizable(False,False)
 
@@ -61,13 +61,13 @@ class twitterGUI(tkinter.Tk):
 
         tweets = self.getTweets()
         row = 1
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet ID", padx=2, pady=1)
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet ID", padx=1, pady=1)
         label.grid(column=0, row=0, sticky='EW')
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet URL", padx=2, pady=1)
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet URL", padx=1, pady=1)
         label.grid(column=1, row=0, sticky='EW')
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet", padx=2, pady=1)
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet", padx=1, pady=1)
         label.grid(column=2, row=0, sticky='EW')
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Action", padx=2, pady=1)
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Action", padx=1, pady=1)
         label.grid(column=3, row=0, columnspan=2, sticky='EW')
         for record in tweets:
             try:
@@ -77,19 +77,19 @@ class twitterGUI(tkinter.Tk):
             id = record['id']
             url = 'http://www.twitter.com/user/status/' + str(id)
             data = {'id':id}
-            label = tkinter.Label(self.contentFrame, anchor="w", fg="black", bg="white", text=id, padx=2, pady=1)
+            label = tkinter.Label(self.contentFrame, anchor="w", fg="black", bg="white", text=id, padx=3, pady=3)
             label.grid(column=0, row=row, sticky='EW')
-            label = tkinter.Label(self.contentFrame, anchor="w", fg="blue", bg="white", text=url, padx=2, pady=1)
+            label = tkinter.Label(self.contentFrame, anchor="w", fg="blue", bg="white", text=url, padx=3, pady=3)
             label.bind("<Button-1>", lambda event, arg=data: self.openLink(event, arg))
             label.grid(column=1, row=row, sticky='EW')
-            label = tkinter.Label(self.contentFrame, anchor="w", fg="black", bg="white", text=tweet, padx=2, pady=1)
+            label = tkinter.Label(self.contentFrame, anchor="w", fg="black", bg="white", text=tweet, padx=3, pady=3)
             label.grid(column=2, row=row, sticky='EW')
             button = tkinter.Button(self.contentFrame, text=u"Approve")
             button.bind("<ButtonPress-1>", lambda event, arg=data: self.onApprove(event, arg))
-            button.grid(column=3, row=row, padx=2, pady=1)
+            button.grid(column=3, row=row, padx=3, pady=3)
             button = tkinter.Button(self.contentFrame, text=u"Disprove")
             button.bind("<ButtonPress-1>", lambda event, arg=data:  self.onDisprove(event, arg))
-            button.grid(column=4, row=row, padx=2, pady=1)
+            button.grid(column=4, row=row, padx=3, pady=3)
             row += 1
 
         self.contentFrame.grid_columnconfigure(0,weight=1)
