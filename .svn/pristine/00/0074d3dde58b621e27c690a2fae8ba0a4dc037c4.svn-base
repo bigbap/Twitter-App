@@ -48,7 +48,7 @@ class twitterGUI(tkinter.Tk):
 
     def initialize(self):
         self.frame=tkinter.Frame()
-        self.contentFrame=tkinter.Frame(self.frame, bg="#333")#, bg="white"
+        self.contentFrame=tkinter.Frame(self.frame, bg="white")
         self.frame.grid()
         self.resizable(False,False)
 
@@ -62,14 +62,14 @@ class twitterGUI(tkinter.Tk):
 
         tweets = self.getTweets()
         row = 1
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet ID")
-        label.grid(column=0, row=0, padx=1, pady=1, sticky='NSEW')
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet URL")
-        label.grid(column=1, row=0, padx=1, pady=1, sticky='NSEW')
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet")
-        label.grid(column=2, row=0, padx=1, pady=1, sticky='NSEW')
-        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Action")
-        label.grid(column=3, row=0, padx=1, pady=1, sticky='NSEW')
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet ID", padx=1, pady=1)
+        label.grid(column=0, row=0, sticky='EW')
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet URL", padx=1, pady=1)
+        label.grid(column=1, row=0, sticky='EW')
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Tweet", padx=1, pady=1)
+        label.grid(column=2, row=0, sticky='EW')
+        label = tkinter.Label(self.contentFrame, anchor="w", fg="white", bg="grey", text="Action", padx=1, pady=1)
+        label.grid(column=3, row=0, columnspan=2, sticky='EW')
         for record in tweets:
             try:
                 tweet = record['tweet'].encode('utf-8')
@@ -79,25 +79,21 @@ class twitterGUI(tkinter.Tk):
             url = 'http://www.twitter.com/user/status/' + str(id)
             data = {'id':id}
 
-            label = tkinter.Label(self.contentFrame, anchor="n", fg="black", bg="white", text=id)
-            label.grid(column=0, row=row, padx=1, pady=1, sticky='NSEW')
-            label = tkinter.Label(self.contentFrame, anchor="n", fg="blue", bg="white", text=url)
+            label = tkinter.Label(self.contentFrame, anchor="w", fg="black", bg="white", text=id, padx=3, pady=3)
+            label.grid(column=0, row=row, sticky='EW')
+            label = tkinter.Label(self.contentFrame, anchor="w", fg="blue", bg="white", text=url, padx=3, pady=3)
             label.bind("<Button-1>", lambda event, arg=data: self.openLink(event, arg))
-            label.grid(column=1, row=row, padx=1, pady=1, sticky='NSEW')
-            label = tkinter.Label(self.contentFrame, anchor="n", fg="black", bg="white", text=tweet)
-            label.grid(column=2, row=row, padx=1, pady=1, sticky='NSEW')
-
-            self.actionFrame=tkinter.Frame(self.contentFrame, bg="white")
-            self.actionFrame.grid(column=3, row=row, padx=1, pady=1, sticky='NSEW')
-            button = tkinter.Button(self.actionFrame, text=u"Approve")
+            label.grid(column=1, row=row, sticky='EW')
+            label = tkinter.Label(self.contentFrame, anchor="w", fg="black", bg="white", text=tweet, padx=3, pady=3)
+            label.grid(column=2, row=row, sticky='EW')
+            button = tkinter.Button(self.contentFrame, text=u"Approve")
             button.bind("<ButtonPress-1>", lambda event, arg=data: self.onApprove(event, arg))
-            button.grid(column=0, row=0, padx=1, pady=1, sticky='EW')
-            button = tkinter.Button(self.actionFrame, text=u"Disprove")
+            button.grid(column=3, row=row, padx=3, pady=3)
+            button = tkinter.Button(self.contentFrame, text=u"Disprove")
             button.bind("<ButtonPress-1>", lambda event, arg=data:  self.onDisprove(event, arg))
-            button.grid(column=1, row=0, padx=1, pady=1, sticky='EW')
+            button.grid(column=4, row=row, padx=3, pady=3)
             row += 1
 
-        self.contentFrame.grid_rowconfigure(0,weight=1)
         self.contentFrame.grid_columnconfigure(0,weight=1)
 
     def onApprove(self, event, arg):
