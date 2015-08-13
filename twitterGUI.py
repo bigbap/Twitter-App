@@ -1,6 +1,7 @@
 __author__ = 'User'
 
 import tkinter
+from tkinter import ttk
 import sqlite3
 import tweepy
 import json
@@ -48,15 +49,18 @@ class twitterGUI(tkinter.Tk):
 
     def initialize(self):
         self.frame=tkinter.Frame()
-        self.contentFrame=tkinter.Frame(self.frame, bg="#333")#, bg="white"
         self.frame.grid()
         self.resizable(False,False)
+
+        self.contentFrame = ''
 
         self.setupGrid()
 
     def setupGrid(self):
-        for widget in self.contentFrame.winfo_children():
-            widget.destroy()
+        if type(self.contentFrame) == tkinter.Frame:
+            self.contentFrame.destroy()
+
+        self.contentFrame=tkinter.Frame(self.frame, bg="#333")#, bg="white"
 
         self.contentFrame.grid()
 
@@ -89,18 +93,16 @@ class twitterGUI(tkinter.Tk):
 
             self.actionFrame=tkinter.Frame(self.contentFrame, bg="white")
             self.actionFrame.grid(column=3, row=row, padx=1, pady=1, sticky='NSEW')
-            button = tkinter.Button(self.actionFrame, text=u"Approve")
-            button.bind("<ButtonPress-1>", lambda event, arg=data: self.onApprove(event, arg))
+            button = ttk.Button(self.actionFrame, text=u"Approve", command=lambda: self.onApprove(data))
             button.grid(column=0, row=0, padx=1, pady=1, sticky='EW')
-            button = tkinter.Button(self.actionFrame, text=u"Disprove")
-            button.bind("<ButtonPress-1>", lambda event, arg=data:  self.onDisprove(event, arg))
+            button = ttk.Button(self.actionFrame, text=u"Disprove", command=lambda: self.onDisprove(data))
             button.grid(column=1, row=0, padx=1, pady=1, sticky='EW')
             row += 1
 
         self.contentFrame.grid_rowconfigure(0,weight=1)
         self.contentFrame.grid_columnconfigure(0,weight=1)
 
-    def onApprove(self, event, arg):
+    def onApprove(self, arg):
         id = arg['id']
         conn = sqlite3.connect(DB)
         c = conn.cursor()
@@ -117,7 +119,7 @@ class twitterGUI(tkinter.Tk):
         conn.close()
         self.setupGrid()
 
-    def onDisprove(self, event, arg):
+    def onDisprove(self, arg):
         id = arg['id']
         conn = sqlite3.connect(DB)
         c = conn.cursor()
@@ -174,7 +176,6 @@ class ProcessTweet():
         tweetsProcessed = 0 #current number of tweets sent for this 15 minute interval
         while self.running:
             if tweetsProcessed < 20 and limitInterval > 0 and tweetInterval <= 0:
-                print("processing...")
                 conn = sqlite3.connect(DB)
                 conn.row_factory = sqlite3.Row
                 c = conn.cursor()
@@ -182,10 +183,11 @@ class ProcessTweet():
                     c.execute('SELECT id, tweet, dtadded, processed FROM tweets WHERE processed = 0 AND approved = 1 ORDER BY dtadded ASC LIMIT 1')
                     for row in c.fetchall():
                         id = row['id']
+                        print("processing ID:", id, " ... ")
                         try:
                             url = 'http://www.twitter.com/user/status/' + str(id)
-                            tweet = row['tweet'].encode('utf-8').decode('utf-8')
-                            print(tweet)
+                            #tweet = row['tweet']
+                            #print(tweet)
                             print(url)
                             api.retweet(id)
                             c.execute('UPDATE tweets SET processed = 1 WHERE id = ?', (id,))
@@ -193,6 +195,7 @@ class ProcessTweet():
                             tweetsProcessed += 1
                             break
                         except tweepy.TweepError as e:
+                            c.execute('UPDATE tweets SET processed = 1 WHERE id = ?', (id,))
                             print("Can't process tweet. ", e, '\n')
 
                 except Exception as e:
