@@ -283,3 +283,5 @@ if __name__ == "__main__":
     app = twitterGUI(None)
     app.title('Twitter APP')
     app.mainloop()
+
+    print("bye..")
