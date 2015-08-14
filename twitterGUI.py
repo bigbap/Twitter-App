@@ -93,9 +93,9 @@ class twitterGUI(tkinter.Tk):
 
             self.actionFrame=tkinter.Frame(self.contentFrame, bg="white")
             self.actionFrame.grid(column=3, row=row, padx=1, pady=1, sticky='NSEW')
-            button = ttk.Button(self.actionFrame, text=u"Approve", command=lambda: self.onApprove(data))
+            button = ttk.Button(self.actionFrame, text=u"Approve", command=lambda arg = data: self.onApprove(arg))
             button.grid(column=0, row=0, padx=1, pady=1, sticky='EW')
-            button = ttk.Button(self.actionFrame, text=u"Disprove", command=lambda: self.onDisprove(data))
+            button = ttk.Button(self.actionFrame, text=u"Disprove", command=lambda arg = data: self.onDisprove(arg))
             button.grid(column=1, row=0, padx=1, pady=1, sticky='EW')
             row += 1
 
