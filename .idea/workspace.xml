@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d65cc178-2d0f-4cb4-8586-4bb08d463d2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter.db" afterPath="$PROJECT_DIR$/twitter.db" />
+    <list default="true" id="2a3a46a6-f570-43aa-bd44-c70779fc0bf3" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\format" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\00\0074d3dde58b621e27c690a2fae8ba0a4dc037c4.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\06\06ac435ef06707be2b38cb05ac737b57515c6a60.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\0e\0e3f2d6770223f01965cdd507410e0d908db4dfa.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\1d\1d64dfd798b5423b59dc5167dedc6f29f1d74016.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\30\30b917df501af727cbeb286d4e6fe6d3f7ba1ef5.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\37\37b31b268dbd2f198e1531c67282f3b169a26966.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\4a\4a3348fc9a3d1ec1bc517399089440028e2242fd.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\55\559957ab7aef9f87ae94da2c7fa3699681cf1130.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\86\864e6723f86194442d5a8557de7389d9110fe8f0.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\8a\8a1621dae39bf1d91d372c77f441e80b8f68b9b6.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\8e\8e7a4d7379a1f19acc514df9de75f36436c1619f.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\95\95dddf51df701479c23829fd76152b8489bb6ad2.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\96\967a86d3bcb15f94c444eebc026c35db4d7d15c9.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\9b\9b666893f768e6fe37c12e730f26c10e94e4fdbd.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\b8\b856791781d6d62c52e964a5ec61f8bb1032a2e2.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\c0\c0bbc8f5931193d649c9d0af3e02921b2c043900.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\c9\c92f3eb0ad1c70371e177a4d7d741f90af3f902c.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\cb\cb73df70d7205ae829d4c5934306bcbe71293ac7.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\d2\d222c1e95ba289f2814d142867f8b3c8b656bcc6.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\d6\d68dc37b6520aae81b68fe94566e0ec127ff3149.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\e6\e68a1e3f8a0ccea2c3eb20d1e422462e05adfe53.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\f6\f6ff06ebbc1937c2e934e96e4a18df4da9293705.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\pristine\f7\f7a8d80627dee1c780b58901a5746c7b937d32b3.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\User\PycharmProjects\apps\twitter\.svn\wc.db" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/twitter.iml" afterPath="$PROJECT_DIR$/.idea/twitter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitterGUI.py" afterPath="$PROJECT_DIR$/twitterGUI.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twitter.iws" />
@@ -19,10 +46,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/twitter$test.coverage" NAME="test Coverage Results" MODIFIED="1439415040518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/twitter$twitterGUI.coverage" NAME="twitterGUI Coverage Results" MODIFIED="1439540452923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -32,44 +55,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="twitterGUI.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twitterGUI.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70327866">
-              <caret line="95" column="82" selection-start-line="95" selection-start-column="82" selection-end-line="95" selection-end-column="92" />
-              <folding>
-                <element signature="e#21#35#0" expanded="true" />
-                <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-                <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-                <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-                <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-                <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-                <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-                <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-                <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-              </folding>
+            <state vertical-scroll-proportion="0.6836957">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/twitterGUI.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -85,25 +89,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyInterpreterInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -128,8 +113,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,52 +133,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Python.twitterGUI">
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="twitter" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="twitterGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python34\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="twitter" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterGUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,12 +211,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -384,364 +323,55 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.twitterGUI" />
-    </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.twitterGUI" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d65cc178-2d0f-4cb4-8586-4bb08d463d2c" name="Default" comment="" />
-      <created>1439358408598</created>
+      <changelist id="2a3a46a6-f570-43aa-bd44-c70779fc0bf3" name="Default" comment="" />
+      <created>1439790578369</created>
       <option name="number" value="Default" />
-      <updated>1439358408598</updated>
+      <updated>1439790578369</updated>
     </task>
-    <task id="LOCAL-00001" summary="db changes">
-      <created>1439448868829</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1439448868829</updated>
-    </task>
-    <task id="LOCAL-00002" summary="layout changes">
-      <created>1439472020187</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1439472020187</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test commit from pycharm">
-      <created>1439472280894</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1439472280894</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32700422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="db changes" />
-    <MESSAGE value="layout changes" />
-    <MESSAGE value="test commit from pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit from pycharm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70327866">
-          <caret line="95" column="82" selection-start-line="95" selection-start-column="82" selection-end-line="95" selection-end-column="92" />
-          <folding>
-            <element signature="e#21#35#0" expanded="true" />
-            <marker date="1439540451011" expanded="true" signature="544:588" placeholder="INSERT INTO ..." />
-            <marker date="1439540451011" expanded="true" signature="4001:4044" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4381:4425" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="4792:4903" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6037:6151" placeholder="SELECT id, t..tweets..." />
-            <marker date="1439540451011" expanded="true" signature="6624:6668" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="6915:6959" placeholder="UPDATE tweet..." />
-            <marker date="1439540451011" expanded="true" signature="7890:8076" placeholder="CREATE TABLE..if..." />
-          </folding>
+        <state vertical-scroll-proportion="0.6836957">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
