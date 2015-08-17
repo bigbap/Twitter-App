@@ -20,7 +20,7 @@ class Listener(tweepy.StreamListener):
             id = data["id_str"]
             lang = data["lang"]
 
-            if lang == "en":
+            if lang == "en" and tweet[0:3] != 'RT ' and tweet[0:3] != 'RT:':
                 conn = sqlite3.connect(DB)
                 c = conn.cursor()
                 try:
@@ -143,7 +143,7 @@ class twitterGUI(tkinter.Tk):
 
         rows = []
         try:
-            c.execute('SELECT id, tweet, dtadded, processed FROM tweets WHERE processed = 0 and approved = 0 ORDER BY id DESC LIMIT 20')
+            c.execute("SELECT id, tweet, dtadded, processed FROM tweets WHERE processed = 0 and approved = 0 ORDER BY id DESC LIMIT 20")#and tweet not LIKE 'RT @%'
             rows = c.fetchall()
 
         except Exception as e:
@@ -172,7 +172,7 @@ class ProcessTweet():
 
     def run(self):
         limitInterval = 15*60 #send a batch of 20 tweets every 15 minutes
-        tweetInterval = 0 #send 1 tweet every 30 seconds
+        tweetInterval = 0 #send 1 tweet every 45 seconds
         tweetsProcessed = 0 #current number of tweets sent for this 15 minute interval
         while self.running:
             if tweetsProcessed < 20 and limitInterval > 0 and tweetInterval <= 0:
@@ -210,9 +210,10 @@ class ProcessTweet():
             limitInterval -= 1
 
             if tweetInterval < 0:
-                tweetInterval = 30
+                tweetInterval = 45
             if limitInterval < 0:
                 limitInterval = 60*15
+                tweetsProcessed = 0
 
             time.sleep(1)
 
