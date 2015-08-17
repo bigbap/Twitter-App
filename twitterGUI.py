@@ -191,12 +191,14 @@ class ProcessTweet():
                             print(url)
                             api.retweet(id)
                             c.execute('UPDATE tweets SET processed = 1 WHERE id = ?', (id,))
-                            print("tweet processed.", '\n')
+                            now = time.strftime("%c")
+                            print("tweet processed at ", now, '\n')
                             tweetsProcessed += 1
                             break
                         except tweepy.TweepError as e:
                             c.execute('UPDATE tweets SET processed = 1 WHERE id = ?', (id,))
-                            print("Can't process tweet. ", e, '\n')
+                            now = time.strftime("%c")
+                            print("Can't process tweet at ", now, '\n', e, '\n')
 
                 except Exception as e:
                     print(e)
