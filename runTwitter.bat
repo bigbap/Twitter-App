@@ -1,1 +1,1 @@
-python D:\python projects\apps\Twitter-App\twitterGUI.py
+python C:\Users\User\PycharmProjects\apps\twitter\twitterGUI.py
